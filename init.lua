@@ -11,3 +11,9 @@ vim.o.smartcase = true
 vim.o.cursorline = true
 vim.o.termguicolors = true
 vim.o.splitright = true
+vim.o.mouse = "a"
+
+vim.g.mapleader = " "
+
+vim.keymap.set("n", "<leader>w", ":w<CR>")
+vim.keymap.set("n", "<leader>q", ":q<CR>")
